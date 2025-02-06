@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.quotes1 {
+  animation: colorChange 5s infinite;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mantap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  list-style-type: none;
+  text-decoration-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -moz-text-decoration-color: black;
+}
+
+.footer {
+  background-color: black;
+  animation: colorChange 5s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
